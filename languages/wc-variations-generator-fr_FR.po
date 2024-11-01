@@ -1,0 +1,351 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Variations Generator\n"
+"POT-Creation-Date: 2020-05-02 09:45+0200\n"
+"PO-Revision-Date: 2020-05-02 09:57+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: wc-variations-generator.php\n"
+"X-Poedit-SearchPath-1: templates\n"
+
+#: templates/generator.php:5
+msgid "Settings"
+msgstr "Paramètres"
+
+#: templates/generator.php:9
+#, php-format
+msgid "Variations base price (%s)"
+msgstr "Prix de base des variations (%s)"
+
+#: templates/generator.php:15
+msgid "This price will be the default price for every newly created variation."
+msgstr "Ce prix sera le prix par défaut pour les nouvelles variations."
+
+#: templates/generator.php:17
+msgid ""
+"Changing the base price will also affect the price of variations that have a "
+"price rule defined below."
+msgstr ""
+"Changer le prix de base affectera également le prix des variations qui ont "
+"des règles de prix définies ci-dessous."
+
+#: templates/generator.php:22
+msgid "Variations check"
+msgstr "Vérification des variations"
+
+#: templates/generator.php:28
+msgid ""
+"Variations currently don't match product attributes.<br />\n"
+"\t\t\t\tThis may have been caused by either editing product's attributes or "
+"manually deleting a variation.<br />\n"
+"\t\t\t\tIt is recommended that you fix this by clicking below button.<br />\n"
+"\t\t\t\tMissing variations will be created and existing variations that "
+"don't match with product's attributes will be deleted."
+msgstr ""
+"Les variations ne correspondent pas aux attributs de produits<br />\n"
+"Cela peut être dû à une modification dans les attributs de produits ou la "
+"suppression manuelle d’une variation.<br />\n"
+"Il est recommandé de régler le problème en cliquant sur le bouton ci-dessous."
+"<br />\n"
+"Les variations manquantes seront crées et les variations qui ne "
+"correspondent plus à des attributs de produit seront supprimées."
+
+#: templates/generator.php:34 templates/generator.php:173
+msgid "processing..."
+msgstr "en cours…."
+
+#: templates/generator.php:34
+msgid "Save settings and process variations!"
+msgstr "Enregistrer les paramètres et générer les variations !"
+
+#: templates/generator.php:45
+msgid "Saved price modifications"
+msgstr "Règles de prix enregistrées"
+
+#: templates/generator.php:60 templates/generator.php:91
+msgid "All values"
+msgstr "Toutes les valeurs"
+
+#: templates/generator.php:60
+msgid "Add"
+msgstr "Ajouter"
+
+#: templates/generator.php:60
+msgid "Set to"
+msgstr "Définir à"
+
+#: templates/generator.php:60
+msgid "Delete"
+msgstr "Supprimer"
+
+#: templates/generator.php:67
+msgid ""
+"Note: price rules are cumulative, ie a variation matching multiple price "
+"rules will be applied each associated price modifications."
+msgstr ""
+"Note : les règles de prix sont cumulatives. Si une variation correspond à "
+"plusieurs règles de prix, elle se verra appliquée chacune des modifications "
+"de prix associée."
+
+#: templates/generator.php:77
+msgid "Edit variations"
+msgstr "Modifier les variations"
+
+#: templates/generator.php:80
+msgid "Select attributes of variations to edit"
+msgstr "Sélectionner les attributs des variations à éditer"
+
+#: templates/generator.php:80 templates/generator.php:137
+#: templates/generator.php:140
+msgid ""
+"All variations matching the selected attributes will be edited with the "
+"below settings."
+msgstr ""
+"Toutes les combinaisons qui correspondent à l’attribut sélectionné seront "
+"modifiées avec les réglages qui suivent."
+
+#: templates/generator.php:114
+#, php-format
+msgid "%s variation(s) match your selection."
+msgstr "%s variation(s) correspondent."
+
+#: templates/generator.php:124
+msgid "Edit variations price"
+msgstr "Modifier le prix des variations"
+
+#: templates/generator.php:129
+#, php-format
+msgid "Add to base price (%s)"
+msgstr "Ajouter au prix de base (%s)"
+
+#: templates/generator.php:130 templates/generator.php:165
+msgid "Leave unchanged"
+msgstr "Ne pas modifier"
+
+#: templates/generator.php:131
+msgid "You can type a negative amount to substract from base price."
+msgstr ""
+"Il est possible d’entrer un montant négatif pour soustraire au prix de base."
+
+#: templates/generator.php:137
+msgid "Add to base price"
+msgstr "Ajouter au prix actuelAjouter au prix de base"
+
+#: templates/generator.php:140
+msgid "Set price"
+msgstr "Saisir le prix"
+
+#: templates/generator.php:149
+msgid "Edit variations stock"
+msgstr "Modifier le stock des variations"
+
+#: templates/generator.php:154
+msgid "Manage stock?"
+msgstr "Gérer le stock ?"
+
+#: templates/generator.php:156
+msgid "Manage stock"
+msgstr "Gestion du stock"
+
+#: templates/generator.php:157
+msgid "Don't manage stock"
+msgstr "Ne pas gérer le stock"
+
+#: templates/generator.php:164
+msgid "Quantity"
+msgstr "Quantité"
+
+#: templates/generator.php:173
+#, php-format
+msgid "Edit %d matching variation(s)!"
+msgstr "Modifier les %d variation(s) !"
+
+#: templates/generator.php:173
+#, php-format
+msgid "Edit %d variation(s)!"
+msgstr "Modifier les %d variation(s) !"
+
+#: wc-variations-generator.php:28
+msgid ""
+"Variations generator for Woocommerce could not be activated because "
+"WooCommerce is not installed and active."
+msgstr ""
+"Variations generator for Woocommerce ne peut être activé car WooCommerce "
+"n’est pas installé et actif."
+
+#: wc-variations-generator.php:75
+#, php-format
+msgid "There was an unexpected error during request: %s"
+msgstr "Il y a eu une erreur inattendue : %s"
+
+#: wc-variations-generator.php:76
+#, php-format
+msgid "Done! In %s seconds"
+msgstr "Terminé ! En %s secondes"
+
+#: wc-variations-generator.php:77
+msgid "Delete this rule? Variations prices will be refreshed."
+msgstr "Supprimer cette règle ? Le prix des variations sera actualisé."
+
+#: wc-variations-generator.php:78
+msgid "Please type in a base price amount."
+msgstr "Merci de saisir le prix de base."
+
+#: wc-variations-generator.php:87
+msgid "Variations generator"
+msgstr "Générateur de variations"
+
+#: wc-variations-generator.php:118
+msgid "Invalid security token."
+msgstr "Jeton de sécurité invalide."
+
+#: wc-variations-generator.php:151
+msgid "Set product as variable and add attributes first!"
+msgstr ""
+"Veuillez d'abord définir le produit comme variable et ajouter des attributs !"
+
+#: wc-variations-generator.php:198
+msgid ""
+"No variation attribute found for this product. You must create product "
+"attributes first!"
+msgstr ""
+"Aucune combinaison trouvée pour ce produit. Vous devez d'abord créer des "
+"attributs !"
+
+#: wc-variations-generator.php:445 wc-variations-generator.php:574
+msgid "Product doesn't exist or is not variable!"
+msgstr "Le produit n'existe pas ou n'est pas variable !"
+
+#~ msgid "Generator"
+#~ msgstr "Générateur"
+
+#~ msgid "Mass edit"
+#~ msgstr "Édition en masse"
+
+#~ msgid "Attribute:"
+#~ msgstr "Attribut :"
+
+#~ msgid "Price offset"
+#~ msgstr "Ecart de prix"
+
+#~ msgid ""
+#~ "Define a price offset that will be added to or substracted from base "
+#~ "price (eg : 40 or -40)"
+#~ msgstr ""
+#~ "Définir un montant qui sera ajouté ou soustrait au prix de base (par "
+#~ "exemple 40 ou -40)"
+
+#~ msgid "Active overrides:"
+#~ msgstr "Sur-édition actives :"
+
+#~ msgid ""
+#~ "variations will be created or updated. Any other previously existing "
+#~ "variation will be deleted."
+#~ msgstr ""
+#~ "combinaisons seront créées ou mises à jour. Toute autre combinaison "
+#~ "préexistante sera supprimée."
+
+#~ msgid "generating..."
+#~ msgstr "génération des variations en cours..."
+
+#, php-format
+#~ msgid "Generate %d variations!"
+#~ msgstr "Générer %d variations !"
+
+#~ msgid "Edit Stock"
+#~ msgstr "Editer le stock"
+
+#~ msgid "do not manage stock"
+#~ msgstr "ne pas gérer le stock"
+
+#~ msgid "Stock status"
+#~ msgstr "État du stock"
+
+#~ msgid "out of stock"
+#~ msgstr "rupture"
+
+#~ msgid "in stock"
+#~ msgstr "en stock"
+
+#, php-format
+#~ msgid "Price (%s)"
+#~ msgstr "Prix (%s)"
+
+#~ msgid "Override current price"
+#~ msgstr "Remplacer le prix actuel par le prix saisi"
+
+#~ msgid ""
+#~ "As no base price was set in generator, this will set the new price for "
+#~ "this specific variation"
+#~ msgstr ""
+#~ "Etant donné qu'aucun prix de base n'a été défini dans le générateur, le "
+#~ "montant indiqué définira un nouveau prix pour les variations "
+#~ "correspondantes."
+
+#~ msgid "Set it to 0 to remove it"
+#~ msgstr "Mettre à 0 pour annuler une surédition"
+
+#, php-format
+#~ msgid ""
+#~ "Done!\n"
+#~ "Created: %d\n"
+#~ "Updated: %d\n"
+#~ "Error(s): %d\n"
+#~ "Deleted: %d"
+#~ msgstr ""
+#~ "Fini!\n"
+#~ "Créée(s): %d\n"
+#~ "Mise(s) à jour: %d\n"
+#~ "Erreur(s): %d\n"
+#~ "Supprimée(s): %d"
+
+#, php-format
+#~ msgid ""
+#~ "Done!\n"
+#~ "Updated: %d\n"
+#~ "Error(s): %d"
+#~ msgstr ""
+#~ "Fini!\n"
+#~ "Mise(s) à jour: %d\n"
+#~ "Erreur(s): %d"
+
+#~ msgid "Define stock status for each variations including attribute"
+#~ msgstr "Saisir les nouvelles valeurs des variations correspondantes"
+
+#~ msgid "Price variation"
+#~ msgstr "Impact sur le prix (+ ou -)"
+
+#~ msgid "In stock"
+#~ msgstr "En stock"
+
+#~ msgid "Out of stock"
+#~ msgstr "Rupture"
+
+#~ msgid "Define new values for matching variations"
+#~ msgstr "Saisir les nouvelles valeurs des variations correspondantes"
+
+#~ msgid "Price override (optional)"
+#~ msgstr "Sur-édition du prix"
+
+#~ msgid "stock"
+#~ msgstr "stock"
+
+#~ msgid "out of stock?"
+#~ msgstr "rupture"
+
+#~ msgid ""
+#~ "add to the price defined in the generator. Do not tick to set a new price."
+#~ msgstr ""
+#~ "ajouter ce montant au prix défini dans le générateur. Ne pas cocher pour "
+#~ "définir un nouveau prix."
+
+#~ msgid "Variations mass edit"
+#~ msgstr "Editeur de variations"
